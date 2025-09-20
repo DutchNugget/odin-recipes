@@ -28,6 +28,17 @@
 
 }
 
+.homedescription {
+
+    max-width: calc((300px * 3) + (20px * 2));
+    margin: 0 auto 1.5em auto;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+
+}
+
 hr {
     
     width: 100%;
