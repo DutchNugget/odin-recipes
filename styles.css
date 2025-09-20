@@ -1,0 +1,47 @@
+* *, *::before, *::after {
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif:
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+
+}
+
+#titlemain {
+
+    text-align: center;
+    background-color: #ffffffa4;
+    padding: 1em;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.homeparagraph {
+
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    font-weight: bold;
+}
+
+hr {
+    
+    border: none;
+    height: 5px;
+    background: #900000 ;
+    border-radius: 2.5px;
+    margin: 10px;
+}
+
+.homelist li {
+
+    display: inline;
+
+
+
+}
+
+
+
