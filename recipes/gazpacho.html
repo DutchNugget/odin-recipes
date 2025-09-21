@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
     <title>Gazpacho</title>
 </head>
 
@@ -10,22 +11,19 @@
     <a id="topofpage"></a>
     <a href="../index.html">home</a>
     
-    <h1>Authentic Gazpacho</h1>
-        <figure>
-            <img src="../recipes/Images/gazpacho.jpg" alt="gazpachoyumyum" height="400">
-            <figcaption><em>Delicious, refreshing and healthy</em></figcaption>
-        </figure>
-    
-    <h3>Description</h3>
-        <p>Gazpacho is a refreshing and vibrant Spanish cold soup that’s perfect for hot summer days.
-        Packed with fresh vegetables like tomatoes, cucumbers, peppers, and onions, it’s a burst of flavor in every spoonful.
-        The soup is typically blended to a smooth consistency, though some like to keep it a bit chunky for added texture.
-        A drizzle of olive oil, a splash of vinegar, and a pinch of salt tie everything together, making it a zesty, cooling dish. 
-        It’s light, healthy, and full of antioxidants—perfect as a starter, snack, or even a light meal. Serve it chilled with a sprinkle of fresh herbs, and maybe a side of crusty bread for the ultimate summer treat!</p>
-    
-    <h3>ingredients</h3>
-        <h4>Vegetables:</h4>
-            <ul>
+    <h1 class="title">Authentic Gazpacho</h1>
+        <div class="finishedproduct">
+            <figure>
+                <img src="../recipes/Images/gazpacho.jpg" alt="gazpachoyumyum" height="400">
+                <figcaption><em>Delicious, refreshing and healthy</em></figcaption>
+             </figure>
+        </div>
+    <div class="recipe-layout">
+        
+    <aside class="ingredients">
+        <h3 class="subtitle">Ingredients</h3>
+            <h4 class="subsubtitle"> Vegetables:</h4>
+            <ul class="ingredientlist">
                 <li>6 ripe tomatoes, peeled and chopped</li>
                 <li>1 cucumber, peeled and diced</li>
                 <li>1 red bell pepper, chopped</li>
@@ -33,7 +31,7 @@
                 <li>1 garlic clove, minced</li>
             </ul>
 
-        <h4>Liquids:</h4>
+        <h4 class="subsubtitle">Liquids:</h4>
             <ul>
                 <li>3 cups cold water (or vegetable broth)</li>
                 <li>3 tbsp extra virgin olive oil</li>
@@ -41,54 +39,65 @@
                 <li>1 tbsp sherry vinegar (optional, for extra depth of flavor)</li>
             </ul>
 
-        <h4>Seasonings:</h4>
+        <h4 class="subsubtitle">Seasonings:</h4>
             <ul>
                 <li>1 tsp sea salt (to taste)</li>
                 <li>1/4 tsp black pepper (freshly ground)</li>
                 <li>A pinch of cumin (optional, for a warm note)</li>
             </ul>
 
-        <h4>Garnishes (optional):</h4>
+        <h4 class="subsubtitle">Garnishes (optional):</h4>
             <ul>
                 <li>Fresh parsley or basil, chopped</li>
                 <li>Croutons or toasted bread cubes</li>
                 <li>A drizzle of olive oil</li>
                 <li>Chopped veggies (like cucumber or bell pepper) for texture</li>
             </ul>
-        
-    <h3>Instructions</h3>
-        <ol>
-            <li><strong>Prepare the vegetables:</strong> 
-            <br>
-            Start by peeling and chopping the tomatoes, cucumber, red bell pepper, and red onion. Finely mince the garlic clove.</li>
-            <br>
-            <li><strong>Combine the ingredients:</strong> 
-            <br>
-            In a large blender or food processor, add the chopped tomatoes, cucumber, bell pepper, onion, and garlic.
-            Add the cold water (or vegetable broth) to the mixture.</li>
-            <br>
-            <li><strong>Blend until smooth:</strong>
-            <br>
-            Pulse the mixture until it's completely smooth.
-            You can adjust the consistency by adding a little more water or broth if needed.</li>
-            <br>
-            <li><strong>Season the gazpacho:</strong>
-            <br>
-            Add the olive oil, red wine vinegar, sherry vinegar (if using), sea salt, black pepper, and a pinch of cumin (if desired).
-            Blend again until everything is well combined.</li>
-            <br>           
-            <li><strong>Chill the soup:</strong> 
-            <br>
-            Transfer the gazpacho to a large bowl or container and refrigerate for at least 2 hours, or preferably overnight, for the flavors to meld and the soup to chill.</li>
-            <br>
-            <li><strong>Serve</strong></li>
-        </ol>
+    </aside>
+    <section class="instructions">
 
-     <h3>Serving</h3>
-        <p>When ready to serve, stir the soup gently and adjust seasoning if needed.
-        Ladle into bowls or pour in a glass and garnish with fresh parsley or basil, croutons, extra chopped vegetables, and a drizzle of olive oil for extra flavor.</p>
+        <h3 class="description">Description</h3>
+             <p class="normalp">Gazpacho is a refreshing and vibrant Spanish cold soup that’s perfect for hot summer days.
+             Packed with fresh vegetables like tomatoes, cucumbers, peppers, and onions, it’s a burst of flavor in every spoonful.
+             The soup is typically blended to a smooth consistency, though some like to keep it a bit chunky for added texture.
+             A drizzle of olive oil, a splash of vinegar, and a pinch of salt tie everything together, making it a zesty, cooling dish. 
+            It’s light, healthy, and full of antioxidants—perfect as a starter, snack, or even a light meal. Serve it chilled with a sprinkle of fresh herbs, and maybe a side of crusty bread for the ultimate summer treat!</p>
+   
+        <h3 class="subtitle">Instructions</h3>
+             <ol class="steps">
+                 <li><strong>Prepare the vegetables:</strong> 
+                  <br>
+                  Start by peeling and chopping the tomatoes, cucumber, red bell pepper, and red onion. Finely mince the garlic clove.</li>
+                 <br>
+                 <li><strong>Combine the ingredients:</strong> 
+                 <br>
+                 In a large blender or food processor, add the chopped tomatoes, cucumber, bell pepper, onion, and garlic.
+                 Add the cold water (or vegetable broth) to the mixture.</li>
+                 <br>
+                 <li><strong>Blend until smooth:</strong>
+                 <br>
+                  Pulse the mixture until it's completely smooth.
+                  You can adjust the consistency by adding a little more water or broth if needed.</li>
+                 <br>
+                <li><strong>Season the gazpacho:</strong>
+                <br>
+                Add the olive oil, red wine vinegar, sherry vinegar (if using), sea salt, black pepper, and a pinch of cumin (if desired).
+                Blend again until everything is well combined.</li>
+                <br>           
+                <li><strong>Chill the soup:</strong> 
+                <br>
+                Transfer the gazpacho to a large bowl or container and refrigerate for at least 2 hours, or preferably overnight, for the flavors to meld and the soup to chill.</li>
+                <br>
+                <li><strong>Serve:</strong></li>
+             </ol>
+
+        
+             <p>When ready to serve, stir the soup gently and adjust seasoning if needed.
+             Ladle into bowls or pour in a glass and garnish with fresh parsley or basil, croutons, extra chopped vegetables, and a drizzle of olive oil for extra flavor.</p>
+     </section>
  
- 
- <a href="#topofpage">Back to top</a>           
+    <button class="button">
+        <a href="#topofpage">Back to top</a> 
+    </button>        
 </body>
 </html>
