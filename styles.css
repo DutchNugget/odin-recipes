@@ -121,6 +121,8 @@ hr {
 
     text-align: center;
     margin:auto;
+    font-size: 24px;
+    padding: 24px;
 
 }
 
@@ -168,13 +170,6 @@ hr {
 
 }
 
-.title {
-
-    font-size: 24px;
-    padding: 24px;
-
-}
-
 .recipe-layout {
 
     width: 100%;
@@ -190,6 +185,7 @@ hr {
     width: 300px;
     padding: 20px;
     margin-right: 20px;
+
     box-sizing: border-box;
     background-color: #b6b2b5;    
     border-radius: 12px;
@@ -221,6 +217,17 @@ hr {
 }
 
 
+.subtitlei {
+
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 5px solid #900000;
+    
+
+}
+
+
 .subtitle {
 
     padding: 20px;
@@ -232,4 +239,38 @@ hr {
 
     margin: 10px;
     text-align: center;
+}
+
+.ingredientlist {
+
+    margin-top: 20px;
+    margin-left: 15px;
+    
+}
+
+.ingredientlist li {
+    margin: 10px;
+}
+
+.buttons {
+  padding: 0.6em 2em;
+  background-color: #97a099f3;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(243, 243, 243, 0.815);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buttons:hover {
+  background-color: #abb1ac;
+  box-shadow: 0 6px 10px rgba(184, 189, 185, 0.5);
+}
+
+.buttons * {
+
+    background-color: transparent;
+
 }
